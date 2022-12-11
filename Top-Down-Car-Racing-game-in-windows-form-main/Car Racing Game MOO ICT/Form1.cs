@@ -107,20 +107,44 @@ namespace Car_Racing_Game_MOO_ICT
 
             if (score > 40 && score < 500)
             {
-                award.Image = Properties.Resources.bronze;
+                if (checkBox1.Checked)
+                {
+                    award.Image = Properties.Resources.bronze_zh;
+                }
+                else
+                {
+                    award.Image = Properties.Resources.bronze;
+                }
+                //award.Image = Properties.Resources.bronze;
             }
 
 
             if (score > 500 && score < 2000)
             {
-                award.Image = Properties.Resources.silver;
+                if (checkBox1.Checked)
+                {
+                    award.Image = Properties.Resources.silver_zh;
+                }
+                else
+                {
+                    award.Image = Properties.Resources.silver;
+                }
+                //award.Image = Properties.Resources.silver;
                 roadSpeed = 20;
                 trafficSpeed = 22;
             }
 
             if (score > 2000)
             {
-                award.Image = Properties.Resources.gold;
+                if (checkBox1.Checked)
+                {
+                    award.Image = Properties.Resources.gold_zh;
+                }
+                else
+                {
+                    award.Image = Properties.Resources.gold;
+                }
+                //award.Image = Properties.Resources.gold;
                 trafficSpeed = 27;
                 roadSpeed = 25;
             }
@@ -204,7 +228,15 @@ namespace Car_Racing_Game_MOO_ICT
             goleft = false;
             goright = false;
             score = 0;
-            award.Image = Properties.Resources.bronze;
+            if (checkBox1.Checked)
+            {
+                award.Image = Properties.Resources.bronze_zh;
+            }
+            else
+            {
+                award.Image = Properties.Resources.bronze;
+            }
+            //award.Image = Properties.Resources.bronze;
 
             roadSpeed = 12;
             trafficSpeed = 15;
@@ -247,6 +279,7 @@ namespace Car_Racing_Game_MOO_ICT
                 Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
             }
             LanguageLabel.Text = skin.Language;
+            txtScore.Text = skin.Score;
             btnStart.Text = skin.Start;
             Instructions.Text = skin.MoveInstruction + "\n" + "\n" + skin.DontHit;
             this.Text = skin.Title;

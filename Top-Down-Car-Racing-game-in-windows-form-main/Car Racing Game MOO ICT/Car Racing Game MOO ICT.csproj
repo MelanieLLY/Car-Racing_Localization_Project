@@ -136,5 +136,14 @@
   <ItemGroup>
     <None Include="Resources\TruckWhite.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bronze_zh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold_zh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver_zh.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

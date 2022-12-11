@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DontHit" xml:space="preserve">
-    <value>Don't hit any other cars in the game and survive as long as you can</value>
+    <value>不要撞到游戏中的其他车辆，尽可能开下去</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Language</value>
+    <value>语言</value>
   </data>
   <data name="MoveInstruction" xml:space="preserve">
-    <value>Press Left and Right to move the car.</value>
+    <value>左右键控制车辆方向</value>
   </data>
   <data name="Score" xml:space="preserve">
-    <value>Score: </value>
+    <value>得分：</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Start</value>
+    <value>开始</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Car Racing Game MOO ICT2</value>
+    <value>MOO ICT2赛车游戏</value>
   </data>
 </root>

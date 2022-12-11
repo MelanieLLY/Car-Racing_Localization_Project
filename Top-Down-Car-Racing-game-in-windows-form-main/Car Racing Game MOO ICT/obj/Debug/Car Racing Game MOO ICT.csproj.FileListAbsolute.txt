@@ -43,3 +43,21 @@ C:\Users\yuhon\Desktop\M\N\Top-Down-Car-Racing-game-in-windows-form-main\Top-Dow
 C:\Users\yuhon\Desktop\M\N\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\zh-CN\Car Racing Game MOO ICT.resources.dll
 C:\Users\yuhon\Desktop\M\N\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.exe
 C:\Users\yuhon\Desktop\M\N\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.pdb
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\bin\Debug\Car Racing Game MOO ICT.exe.config
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\bin\Debug\Car Racing Game MOO ICT.exe
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\bin\Debug\Car Racing Game MOO ICT.pdb
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\bin\Debug\en-US\Car Racing Game MOO ICT.resources.dll
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\bin\Debug\zh-CN\Car Racing Game MOO ICT.resources.dll
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.csproj.AssemblyReference.cache
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.csproj.SuggestedBindingRedirects.cache
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car_Racing_Game_MOO_ICT.Form1.resources
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car_Racing_Game_MOO_ICT.Properties.Resources.resources
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car_Racing_Game_MOO_ICT.skin.resources
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car_Racing_Game_MOO_ICT.skin.en-US.resources
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car_Racing_Game_MOO_ICT.skin.zh-CN.resources
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.csproj.GenerateResource.cache
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.csproj.CoreCompileInputs.cache
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\en-US\Car Racing Game MOO ICT.resources.dll
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\zh-CN\Car Racing Game MOO ICT.resources.dll
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.exe
+D:\homework\TLM_Sem3\software_I18n\final\sshao_lyang_car_racing_l10n\Top-Down-Car-Racing-game-in-windows-form-main\Car Racing Game MOO ICT\obj\Debug\Car Racing Game MOO ICT.pdb
