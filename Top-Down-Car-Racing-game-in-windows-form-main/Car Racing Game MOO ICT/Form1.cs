@@ -193,9 +193,6 @@ namespace Car_Racing_Game_MOO_ICT
 
             btnStart.Enabled = true;
 
-
-
-
         }
 
         private void ResetGame()
@@ -229,38 +226,31 @@ namespace Car_Racing_Game_MOO_ICT
             ResetGame();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (enUS.Checked)
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
-                LanguageLabel.Text = skin.Language;
-                btnStart.Text = skin.Start;
-                Instructions.Text = skin.MoveInstruction + "\n" + "\n" + skin.DontHit;
-                this.Text = skin.Title;
-            }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void zhCN_CheckedChanged(object sender, EventArgs e)
+        private void radioButton1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            if (zhCN.Checked)
+            e.IsInputKey = true;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
             {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
-                LanguageLabel.Text = skin.Language;
-                btnStart.Text = skin.Start;
-                Instructions.Text = skin.MoveInstruction + "\n" + "\n" + skin.DontHit;
-                this.Text = skin.Title;
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");  
             }
+            else
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+            }
+            LanguageLabel.Text = skin.Language;
+            btnStart.Text = skin.Start;
+            Instructions.Text = skin.MoveInstruction + "\n" + "\n" + skin.DontHit;
+            this.Text = skin.Title;
+            player.Focus();
         }
 
         private void playSound()

@@ -41,9 +41,8 @@
             this.txtScore = new System.Windows.Forms.Label();
             this.Instructions = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
-            this.enUS = new System.Windows.Forms.RadioButton();
-            this.zhCN = new System.Windows.Forms.RadioButton();
             this.LanguageLabel = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AI2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AI1)).BeginInit();
@@ -178,32 +177,6 @@
             this.gameTimer.Interval = 20;
             this.gameTimer.Tick += new System.EventHandler(this.gameTimerEvent);
             // 
-            // enUS
-            // 
-            this.enUS.AutoSize = true;
-            this.enUS.Checked = true;
-            this.enUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.enUS.Location = new System.Drawing.Point(399, 590);
-            this.enUS.Name = "enUS";
-            this.enUS.Size = new System.Drawing.Size(60, 17);
-            this.enUS.TabIndex = 4;
-            this.enUS.TabStop = true;
-            this.enUS.Text = "en-US";
-            this.enUS.UseVisualStyleBackColor = true;
-            this.enUS.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // zhCN
-            // 
-            this.zhCN.AutoSize = true;
-            this.zhCN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zhCN.Location = new System.Drawing.Point(399, 614);
-            this.zhCN.Name = "zhCN";
-            this.zhCN.Size = new System.Drawing.Size(62, 17);
-            this.zhCN.TabIndex = 5;
-            this.zhCN.Text = "zh_CN";
-            this.zhCN.UseVisualStyleBackColor = true;
-            this.zhCN.CheckedChanged += new System.EventHandler(this.zhCN_CheckedChanged);
-            // 
             // LanguageLabel
             // 
             this.LanguageLabel.AutoSize = true;
@@ -215,22 +188,35 @@
             this.LanguageLabel.Text = "Language";
             this.LanguageLabel.Click += new System.EventHandler(this.label1_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(398, 590);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(93, 17);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.TabStop = false;
+            this.checkBox1.Text = "Chinese/中文";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 781);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.LanguageLabel);
-            this.Controls.Add(this.zhCN);
-            this.Controls.Add(this.enUS);
             this.Controls.Add(this.Instructions);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Car Racing Game MOO ICT";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.radioButton1_PreviewKeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AI2)).EndInit();
@@ -259,9 +245,8 @@
         private System.Windows.Forms.PictureBox explosion;
         private System.Windows.Forms.PictureBox player;
         private System.Windows.Forms.Timer gameTimer;
-        private System.Windows.Forms.RadioButton enUS;
-        private System.Windows.Forms.RadioButton zhCN;
         private System.Windows.Forms.Label LanguageLabel;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
