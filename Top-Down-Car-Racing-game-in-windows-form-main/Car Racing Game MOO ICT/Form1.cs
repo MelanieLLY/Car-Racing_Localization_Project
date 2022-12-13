@@ -109,12 +109,16 @@ namespace Car_Racing_Game_MOO_ICT
             {
                 if (checkBox1.Checked)
                 {
-                    award.Image = Properties.Resources.bronze_zh;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                    
+                    //award.Image = Properties.Resources.bronze_zh;
                 }
                 else
                 {
-                    award.Image = Properties.Resources.bronze;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+                    //award.Image = Properties.Resources.bronze;
                 }
+                award.Image = skin.bronze;
                 //award.Image = Properties.Resources.bronze;
             }
 
@@ -123,12 +127,16 @@ namespace Car_Racing_Game_MOO_ICT
             {
                 if (checkBox1.Checked)
                 {
-                    award.Image = Properties.Resources.silver_zh;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+
+                    //award.Image = Properties.Resources.bronze_zh;
                 }
                 else
                 {
-                    award.Image = Properties.Resources.silver;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+                    //award.Image = Properties.Resources.bronze;
                 }
+                award.Image = skin.silver;
                 //award.Image = Properties.Resources.silver;
                 roadSpeed = 20;
                 trafficSpeed = 22;
@@ -138,12 +146,16 @@ namespace Car_Racing_Game_MOO_ICT
             {
                 if (checkBox1.Checked)
                 {
-                    award.Image = Properties.Resources.gold_zh;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+
+                    //award.Image = Properties.Resources.bronze_zh;
                 }
                 else
                 {
-                    award.Image = Properties.Resources.gold;
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+                    //award.Image = Properties.Resources.bronze;
                 }
+                award.Image = skin.gold;
                 //award.Image = Properties.Resources.gold;
                 trafficSpeed = 27;
                 roadSpeed = 25;
